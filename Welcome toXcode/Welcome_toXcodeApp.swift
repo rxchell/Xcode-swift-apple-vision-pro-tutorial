@@ -13,5 +13,9 @@ struct Welcome_toXcodeApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        WindowGroup(id: "PopupWindow") {
+            PopupView()
+        }
     }
 }
